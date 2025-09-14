@@ -1,7 +1,7 @@
 income = input("Enter your monthly income: ") # income per month
 expenses = input("Enter your total monthly expenses: ") # expenses per month
 
-monthly_savings = int(income) - int(expenses)
+monthly_savings = float(income) - float(expenses)
 yearly_savings = monthly_savings * 12
 rate = 0.05
 
