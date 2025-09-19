@@ -4,15 +4,16 @@ operation = input("Choose the operation (+, -, *, /): ")
 
 match operation:
     case "+":
-        print(num1 + num2)
+        result = num1 + num2)
     case "-":
-        print(num1 - num2)
+        result = num1 - num2)
     case "*":
-        print(num1 * num2)
+        result = num1 * num2)
     case "/":
         if num2 == 0:
             print("Invalid operation")
         else:
-            print(num1 / num2)
+            result = num1 / num2
     case _:
         print("No number provided")
+print("The result is:", result)
